@@ -13,7 +13,7 @@ Volume ━━━━━━━━━━━━━●──────────�
 ## Features
 
 - **Horizontal & Vertical Sliders** - Full support for both orientations
-- **46+ Style Presets** - Ocean, Neon, Forest, Gaming UI, and more
+- **[46+ Style Presets](STYLEPRESETS.md)** - Ocean, Neon, Forest, Gaming UI, and more
 - **35+ Symbol Sets** - Blocks, dots, waves, gradients, ASCII-compatible
 - **Segmented Mode** - Discrete segments with customizable gaps
 - **Progress Bar Mode** - Hide the handle for progress indicators
@@ -126,18 +126,6 @@ func main() {
         os.Exit(1)
     }
 }
-```
-
-## Style Presets
-
-TuSlide comes with 46+ predefined styles. See **[STYLEPRESETS.md](STYLEPRESETS.md)** for the complete list.
-
-Quick examples:
-```go
-tuslide.WithStyle(tuslide.StyleNeon())      // Vibrant magenta/cyan
-tuslide.WithStyle(tuslide.StyleHealth())    // Red health bar
-tuslide.WithStyle(tuslide.StyleOcean())     // Deep blue tones
-tuslide.WithStyle(tuslide.StyleSegmentedStars()) // ★ ★ ★ ☆ ☆
 ```
 
 ## Vertical Sliders
