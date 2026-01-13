@@ -19,6 +19,9 @@ Volume ━━━━━━━━━━━━━●──────────�
 - **Progress Bar Mode** - Hide the handle for progress indicators
 - **Border Support** - Rounded, normal, thick, and double borders
 - **Flexible Positioning** - Labels and values can be placed anywhere
+- **Mouse Support** - Click and drag interaction with slider groups
+- **Animation Helpers** - 13 easing functions, spring physics, pulse effects
+- **Accessibility** - High contrast, ASCII-only, screen reader modes
 - **Unicode Accurate** - Proper width handling with `go-runewidth`
 - **Bubble Tea Compatible** - Works seamlessly with the Bubble Tea framework
 
