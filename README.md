@@ -130,49 +130,14 @@ func main() {
 
 ## Style Presets
 
-TuSlide comes with 46+ predefined styles:
+TuSlide comes with 46+ predefined styles. See **[STYLEPRESETS.md](STYLEPRESETS.md)** for the complete list.
 
-### Basic Styles
+Quick examples:
 ```go
-tuslide.StyleDefault()      // ━━━━━━━━━●─────────
-tuslide.StyleBlock()        // ████████▓░░░░░░░░░░
-tuslide.StyleProgress()     // ▰▰▰▰▰▰▰▰▶▱▱▱▱▱▱▱▱▱
-tuslide.StyleWave()         // ≈≈≈≈≈≈≈≈◈˜˜˜˜˜˜˜˜˜
-tuslide.StyleDots()         // ⣿⣿⣿⣿⣿⣿⬤⣀⣀⣀⣀⣀⣀⣀
-```
-
-### Color Themes
-```go
-tuslide.StyleOcean()        // Deep blue tones
-tuslide.StyleForest()       // Green nature theme
-tuslide.StyleSunset()       // Warm orange/red
-tuslide.StyleNeon()         // Vibrant magenta/cyan
-tuslide.StyleMonochrome()   // Grayscale
-```
-
-### Gaming UI
-```go
-tuslide.StyleHealth()       // Red health bar
-tuslide.StyleMana()         // Cyan mana bar
-tuslide.StyleExperience()   // Yellow XP bar
-```
-
-### Progress Bars
-```go
-tuslide.StyleProgressDownload()     // Green download bar
-tuslide.StyleProgressUpload()       // Blue upload bar
-tuslide.StyleProgressLoading()      // Magenta loading bar
-tuslide.StyleProgressInstallation() // Installation progress
-tuslide.StyleProgressBattery()      // Battery level
-```
-
-### Segmented Styles
-```go
-tuslide.StyleSegmentedDots()      // ● ● ● ● ● ○ ○ ○ ○ ○
-tuslide.StyleSegmentedStars()     // ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆
-tuslide.StyleSegmentedSquares()   // ■ ■ ■ ■ ■ □ □ □ □ □
-tuslide.StyleSegmentedDiamonds()  // ◆ ◆ ◆ ◆ ◆ ◇ ◇ ◇ ◇ ◇
-tuslide.StyleSegmentedArrows()    // ▶ ▶ ▶ ▶ ▶ ▷ ▷ ▷ ▷ ▷
+tuslide.WithStyle(tuslide.StyleNeon())      // Vibrant magenta/cyan
+tuslide.WithStyle(tuslide.StyleHealth())    // Red health bar
+tuslide.WithStyle(tuslide.StyleOcean())     // Deep blue tones
+tuslide.WithStyle(tuslide.StyleSegmentedStars()) // ★ ★ ★ ☆ ☆
 ```
 
 ## Vertical Sliders
